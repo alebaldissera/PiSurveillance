@@ -1,0 +1,30 @@
+{
+  "name": "pisurvillance",
+  "version": "1.0.0",
+  "description": "A simple surveillance monitor written in nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willyilcojote/pisurveillance.git"
+  },
+  "keywords": [
+    "nodejs",
+    "surveillace",
+    "rtsp",
+    "omxplayer",
+    "security",
+    "camera"
+  ],
+  "author": "Alessandro Baldissera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willyilcojote/pisurveillance/issues"
+  },
+  "homepage": "https://github.com/willyilcojote/pisurveillance#readme",
+  "dependencies": {
+    "ping": "^0.2.3"
+  }
+}

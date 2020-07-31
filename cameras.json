@@ -1,0 +1,26 @@
+{
+    "North": {
+        "ip": "192.168.0.7",
+        "port": 554,
+        "path": "onvif1",
+        "protocol": "rtsp"
+    },
+    "East": {
+        "ip": "192.168.0.6",
+        "port": 554,
+        "path": "onvif1",
+        "protocol": "rtsp"
+    },
+    "West": {
+        "ip": "192.168.0.8",
+        "port": 554,
+        "path": "onvif1",
+        "protocol": "rtsp"
+    },
+    "South": {
+        "ip": "192.168.0.9",
+        "port": 554,
+        "path": "onvif1",
+        "protocol": "rtsp"
+    }
+}
