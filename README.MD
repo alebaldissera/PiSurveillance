@@ -12,11 +12,13 @@ This software is not compatible with other platform because it uses omxplayer th
 ## How To Install
 
 - `git clone https://github.com/willyilcojote/pisurveillace.git`
-- `cp pisurveillance && npm install && cp ..`
-- `sudo cp -r pisurveillance /opt/`
-- `cp /opt/pisurveillance`
+- `cd PiSurveillance && npm install && cd ..`
+- `sudo cp -r PiSurveillance /opt/`
+- `cd /opt/PiSurveillance`
 - `sudo chmod +x app.js`
-
+- `sudo cp PiSurveillance.service /etc/systemd/system/`
+- `sudo systemctl enable PiSurveillance.service`
+- `sudo reboot`
 Soon I will create an installer script.
 
 ## How to confiure
